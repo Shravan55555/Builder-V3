@@ -1,15 +1,15 @@
 env:
-    MANIFEST: https://github.com/Octavi-Staging/manifest.git -b thirteen
+    MANIFEST: https://github.com/DroidX-UI/manifest.git -b 13
     DEVICE: RMX1901
     OEM: realme
-    LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest-1.git
+    LOCAL_MANIFEST: https://github.com/Shravan55555/local_manifest.git
     TARGET: bacon
-    LUNCH_COMBO: octavi_${DEVICE}-userdebug
-    OUTPUT: O*.zip
+    LUNCH_COMBO: droidx_${DEVICE}-userdebug
+    OUTPUT: d*.zip
     CLO: RMX1901:AppDrive
-    CLO_1: ENCRYPTED[!9307771b67b93b458d68c3302aa66582f9574e18ba0f8c6eba8ecf5f2db99ac5f3819eea3eee5c09c71d99a9c6f06054!]
-    URI: https://sourceforge.net/projects/realme-x-1901/files/ccache/Octavi/ccache.tar.gz/download
-    ROM_U: 1
+    CLO_1: ENCRYPTED[!59291223a3c834b9ac85ba30a59251d50d8f6ef594774f2cddfe6882177fdc931d7d72ab353d380dadf9811b16f57a84!]
+    URI: #https://sourceforge.net/projects/realme-x-1901/files/ccache/Octavi/ccache.tar.gz/download
+    ROM_U: 0
     
 task:
   name: "build"
