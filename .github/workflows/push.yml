@@ -24,6 +24,6 @@ jobs:
       uses: actions-js/push@master
       with:
         github_token: ${{ secrets.GH_TOKEN }}
-        author_email: 'ci.twrp@gmail.com'
-        author_name: 'RecoveryBuilder'
-        message: 'RecoveryBuilder: Trigger Build'
+        author_email: 'srasidda.ks@gmail.com'
+        author_name: 'Shravan55555'
+        message: 'Shravan55555: Trigger Build'
